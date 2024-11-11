@@ -10,10 +10,22 @@ authors = [{ name = "Remco Sprooten", email = "remco@sprooten.org" }]
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Natural Language :: English",
+]
 dependencies = [
     "PyGithub>=1.55",
     "todoist-api-python>=1.3.0",
 ]
+[project.urls]
+Homepage = "https://github.com/1337-42/Github2Todoist"
 
 [project.scripts]
 github-todoist-sync = "github_todoist_sync.sync:main"
