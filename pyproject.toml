@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-todoist-sync"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to sync GitHub issues and PRs to Todoist tasks."
 authors = [{ name = "Remco Sprooten", email = "remco@sprooten.org" }]
 readme = "README.md"
