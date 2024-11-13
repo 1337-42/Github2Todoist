@@ -14,7 +14,7 @@ A Python tool that synchronizes your GitHub issues and pull requests (PRs) with 
 
 ### Prerequisites
 
-- **Python 3.6 or higher** installed on your system.
+- **Python 3.10 or higher** installed on your system.
 - **GitHub Personal Access Token:**
   - Go to your GitHub account settings.
   - Navigate to **Developer settings** > **Personal access tokens**.
